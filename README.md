@@ -1,17 +1,30 @@
-## Hi, <br/> I am Arup Mahato , A passionate java backend Developer. <br/>
+## Hi 👋, I'm Arup Mahato
+**Java Backend Developer | Spring Boot | Microservices**
 
-Backend Developer with 2.5+ years of experience in designing and developing scalable RESTful services using Java and Spring Boot. Experienced in building production-grade applications with efficient database design, transaction management, and performance optimization. Proven ability to write clean, maintainable code and contribute effectively in fast-paced development environments.
+Backend Developer with 2.5+ years of experience in designing and developing scalable, production-grade backend systems using **Java and Spring Boot**. Experienced in building **RESTful APIs**, working with **microservices architecture**, and implementing **secure authentication mechanisms (JWT, Spring Security)**.  
+I have hands-on experience with **payment gateway integration, analytics platforms, Wix plugin services, and CRM integrations**, and I enjoy building reliable, high-performance backend services with clean, maintainable code.
 
-## Technical Skills <br/>
-HTML || CSS <br/>
-JavaScript <br/>
-Java <br/>
-SQL || Hibernate <br/>
-Spring || Spring Boot <br/>
- 
-## Soft Skills
-Time Management <br/>
-Leadership  <br/>
-Communication <br/>
-Interpersonal Skills <br/>
+---
 
+## 💻 Technical Skills
+
+**Backend & Frameworks:**  
+Java, Spring, Spring Boot, Hibernate/JPA, REST API Design
+
+**Databases:**  
+MySQL, MongoDB, Redis
+
+**Architecture & Concepts:**  
+Microservices Architecture, Authentication & Authorization (JWT, Spring Security)
+
+**Tools & Others:**  
+Git, GitHub, Postman, Swagger
+
+---
+
+## 🤝 Soft Skills
+
+- Strong problem-solving and debugging skills
+- Effective communication and team collaboration
+- Time management and ownership of tasks
+- Adaptability and continuous learning mindset  

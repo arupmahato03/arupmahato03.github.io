@@ -2,370 +2,523 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arup Mahato</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arup Mahato — Java Backend Developer</title>
+  <meta name="description" content="Portfolio of Arup Mahato — Java Backend Developer with 2.5+ years of experience building scalable, production-grade backend systems.">
 
-    <!-- font awesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <!-- custom css file link -->
-    <link rel="stylesheet" href="/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- header section starts -->
 
-    <header>
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>AM<span class="logo-bracket"> /&gt;</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#github" class="nav-link">GitHub</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="https://drive.google.com/file/d/1mzUUtqglOvX6NAdVl440iSbC7dSjdAmX/view?usp=sharing"
+            target="_blank" class="nav-link nav-resume">Resume <i class="fas fa-external-link-alt"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-        <div class="user">
-            <img src="/Assets/crop without bg.png" alt="">
-            <h3 class="name">Arup Mahato</h3>
-            <p class="post">java backend developer</p>
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Arup Mahato</h1>
+        <h2 class="hero-title">Java Backend Developer</h2>
+        <p class="hero-description">
+          Backend Developer with <strong>2.5+ years of experience</strong> designing and developing
+          <strong>scalable RESTful services</strong> using Java and Spring Boot. I've built production-grade
+          applications including <strong>analytics platforms, payment gateway integrations, Wix plugin services,
+          and CRM system integrations</strong> — with a focus on clean architecture, microservices, and
+          performance optimization.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="Assets/ARUP MAHATO RESUME.pdf" download="Arup_Mahato_Resume.pdf" class="btn btn-outline">
+            Download CV <i class="fas fa-download"></i>
+          </a>
         </div>
+        <div class="hero-socials">
+          <a href="https://github.com/arupmahato03" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/arup-mahato-56969722b/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+<!--          <a href="https://twitter.com/arup6649" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>-->
+          <a href="mailto:arup71062@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-image-wrapper">
+          <img src="Assets/arup_profile_photo.jpg" alt="Arup Mahato">
+          <div class="hero-image-ring"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
 
-        <nav class="navbar" id="nav-menu">
-            <ul>
-                <li><a href="#home">home</a></li>
-                <!-- <li><a href="#about">about</a></li> -->
-                <!-- <li><a href="#education">education</a></li> -->
-                <li><a href="#portfolio">projects</a></li>
-                <li><a href="#mh-skills">skills</a></li>
-                <li><a href="#contact">contact</a></li>
-                <li><a href="https://drive.google.com/file/d/1KEuU-q46b5nPdaFgDZdxKSot98G9xZL3/view?usp=sharing"
-                        target="_blank">Resume</a></li>
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about" id="about">
+    <div class="section-container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Who I am &amp; what drives me</p>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a <strong>Backend Developer with 2.5+ years of experience</strong> in designing and developing
+            scalable RESTful services using <strong>Java and Spring Boot</strong>. I specialize in building
+            production-grade applications with efficient database design, transaction management, and performance
+            optimization.
+          </p>
+          <p>
+            At <strong>Heliverse Technologies</strong>, I led backend development for <strong>analytics platforms,
+            payment gateway integrations, Wix plugin services, and CRM system integrations</strong>. I designed
+            and implemented microservice-based architecture and built secure REST APIs with JWT authentication.
+          </p>
+          <p>
+            Currently at <strong>Togethring Media Labs</strong>, I'm developing and maintaining high-performance
+            backend services, implementing core modules like <strong>Customer Management System (CMS), payment
+            gateway integration, and role-based access control (RBAC)</strong>. I'm passionate about writing
+            clean, maintainable code and contributing effectively in fast-paced development environments.
+          </p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-server"></i></div>
+            <h3>2.5+ Years</h3>
+            <p>Production Backend Experience</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-cubes"></i></div>
+            <h3>Microservices</h3>
+            <p>Architecture &amp; Design</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Scalable APIs</h3>
+            <p>RESTful &amp; High-Performance</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-cloud"></i></div>
+            <h3>Cloud &amp; DevOps</h3>
+            <p>AWS Deployment &amp; CI/CD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE SECTION ========== -->
+  <section class="experience" id="experience">
+    <div class="section-container">
+      <h2 class="section-title">Work Experience</h2>
+      <p class="section-subtitle">My professional journey</p>
+
+      <div class="timeline">
+        <!-- Experience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Backend Development Engineer</h3>
+                <h4>Togethring Media Labs</h4>
+              </div>
+              <span class="timeline-date">Dec 2024 - Present</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Developed and maintained high-performance Java backend services supporting frontend applications and third-party integrations</li>
+              <li>Built and managed RESTful APIs using Spring Boot, following clean architecture and best practices</li>
+              <li>Designed and implemented core modules including <strong>Customer Management System (CMS)</strong>, payment gateway integration, and <strong>role-based access control (RBAC)</strong></li>
+              <li>Collaborated with cross-functional teams to translate business requirements into scalable and maintainable backend solutions</li>
             </ul>
-        </nav>
-
-
-    </header>
-
-    <!-- header section ends -->
-
-    <div id="menu" class="fas fa-bars"></div>
-
-    <!-- home section starts -->
-
-    <section class="home" id="home">
-
-
-
-        <div id="user-detail-intro">
-            <h3>HI THERE, WELCOME TO MY PORTFOLIO !</h3>
-            <h1>I'M <span class="myname">Arup Mahato</span></h1>
-            <p>  Experienced <span class="javaword">Java Backend Developer</span>  with 7 months at Heliverse Technologies, proficient in Java, Hibernate,
-                SQL, Spring, and Spring Boot. Skilled in solving over 800 DSA questions and accumulating 1200+
-                hours of coding experience. Known for adaptability and eagerness to learn new technologies.
-                Seeking new opportunities to apply expertise and contribute to industry innovation.
-                </p>
+          </div>
         </div>
 
-        <div class="find">
-            <h5>FIND ME ON</h5>
-            <a href="https://www.instagram.com/arupx3492/" target="_blank"> <button type="button" class="ic"> <i id="ic"
-                        class="fa-brands fa-instagram"></i> </button> </a>
-            <a t href="https://www.facebook.com/arupmahato.mahato.92" target="_blank"> <button type="button" class="ic">
-                    <i id="ic" class="fa-brands fa-facebook-square"></i> </button> </a>
-            <a href="https://twitter.com/arup6649" target="_blank"> <button type="button" class="ic"> <i id="ic"
-                        class="fa-brands fa-twitter-square"></i> </button> </a>
-            <a href="https://github.com/arupx3492" target="_blank"> <button type="button" class="ic"> <i id="ic"
-                        class="fa-brands fa-github"></i> </button> </a>
-            <!--github -->
-            <a href="https://www.linkedin.com/in/arup-mahato-56969722b/" target="_blank"> <button type="button"
-                    class="ic"> <i id="ic" class="fa-brands fa-linkedin"></i> </button> </a>
-
-
+        <!-- Experience 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Java Backend Developer</h3>
+                <h4>Heliverse Technologies</h4>
+              </div>
+              <span class="timeline-date">Jun 2023 - Sep 2024</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Designed and implemented <strong>microservice-based backend architecture</strong> using Spring Boot to support high-traffic production applications</li>
+              <li>Led backend development for <strong>analytics platforms, payment gateway integrations, Wix plugin services, and CRM system integrations</strong></li>
+              <li>Built secure, scalable REST APIs with <strong>JWT authentication</strong>, ensuring robust access control and data protection</li>
+              <li>Played a key role in building end-to-end backend workflows from design to deployment in production environments</li>
+            </ul>
+          </div>
         </div>
-        <a href="Assets/ARUP MAHATO RESUME.pdf" download="ARUP MAHATO RESUME.pdf"><button class="btn"> download
-                CV <i class="fas fa-download"></i></button></a>
+      </div>
 
-
-        <div class="container">
-            <div class="loader">
-                <div class="ball"></div>
-            </div>
+      <!-- Key Expertise Cards -->
+      <h3 class="expertise-title">Core Expertise</h3>
+      <div class="experience-grid">
+        <div class="exp-card">
+          <div class="exp-icon"><i class="fas fa-cogs"></i></div>
+          <h3>Microservices Architecture</h3>
+          <p>Designed and implemented microservice-based systems with Spring Boot for high-traffic production applications.</p>
         </div>
+        <div class="exp-card">
+          <div class="exp-icon"><i class="fas fa-plug"></i></div>
+          <h3>Third-Party Integrations</h3>
+          <p>Payment gateways, Wix plugins, CRM systems, and analytics platforms with robust error handling.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>API Security & Auth</h3>
+          <p>JWT authentication, Spring Security, and role-based access control in production systems.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon"><i class="fas fa-database"></i></div>
+          <h3>Database Design</h3>
+          <p>Efficient schema design, transaction management, and query optimization with MySQL, MongoDB, and Redis.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Performance Optimization</h3>
+          <p>Building systems that handle scale with predictable latency and efficient resource utilization.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon"><i class="fas fa-code-branch"></i></div>
+          <h3>Clean Code Practices</h3>
+          <p>SOLID principles, meaningful abstractions, comprehensive testing, and well-documented APIs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    </section>
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="projects" id="projects">
+    <div class="section-container">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-subtitle">Real-world applications I've built</p>
+      <div class="projects-grid">
 
-    <!-- home section ends -->
-
-    <!-- ----------------------------------------------------------------- -->
-
-
-
-
-
-    <!-- skills section starts -->
-
-    <section class="mh-skills" id="mh-skills">
-
-        <h1 class="heading"> my <span>skills</span> </h1>
-        <!-- Technical skills starts -->
-        <h1 class="heading2 technicalskillsheading"> Technical skills</h1>
-        <img class="llogo" src="Assets/html.png" alt="">
-        <img class="llogo" src="Assets/css.png" alt="">
-        <img class="llogo" src="Assets/js.png" alt="">
-        <img class="llogo" src="Assets/java.png" alt="">
-        <img class="llogo" src="Assets/sql-server (1).png" alt="">
-        <img class="llogo" src="Assets/spring.png" alt="">
-        <img class="llogo" src="Assets/Spring boot image.png" alt="">
-        <img class="llogo" src="Assets/Swagger.png" alt="">
-        <img class="llogo" src="Assets/aws image.jpg" alt="">
-        <!-- Technical skills end-->
-
-        <!-- Soft  skills starts -->
-        <h1 class="heading2 softskillheading"> Soft skills</h1>
-        <h1 class="softskillh1">Interpersonal skills</h1>
-        <h1 class="softskillh1">Time management</h1>
-        <h1 class="softskillh1">Leadership </h1>
-        <h1 class="softskillh1">Communication </h1>
-
-
-    </section>
-
-    <!-- skills section ends -->
-
-
-
-
-
-
-
-
-    <!-- Project section starts -->
-
-    <section class="portfolio" id="portfolio">
-
-        <h1 class="heading"> my <span>projects</span> </h1>
-
-        <div class="box-container">
-
-
-            <!-- This is first Project -->
-
-            <div class="box3">
-                <img class="projectImg" src="/Assets/nykaa2.png" alt="">
-                <!-- This is first image -->
-                <h1><b class="xyz">Nykaa-Clone</b></h1>
-                <h1 class=" pdesc">An online platform inspired by Nykaa, offering makeup, lifestyle, beauty, wellness, and fashion products across multiple channels.
-                </h1>
-                <br />
-                <h1 class="descheading">Tech Stacks :</h1>
-                <br />
-                <h1>Html</h1>
-                <br />
-                <h1>Css</h1>
-                <br />
-                <h1>Javascript</h1>
-                <br />
-                <!-- <h1>addtocart</h1>
-                <br />
-                <h1>order</h1> -->
-                <br />
-                <button class="decbuttonmain"> <a class="decbutton" target="_blank"
-                        href="https://github.com/arupx3492/Nykaa-Clone"> GitHub link</a></button> <span><button
-                        class="decbuttonmain"> <a class="decbutton" target="_blank"
-                            href="https://famous-conkies-aaaea0.netlify.app/"> Deploy link</a></button></span>
-
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Assets/Online Food delivery image.jpg" alt="Online Food Delivery System">
+            <div class="project-overlay">
+              <a href="https://github.com/mahipat303/absent-sky-3233" target="_blank" class="project-link"><i class="fa-brands fa-github"></i></a>
+              <a href="https://drive.google.com/file/d/1At30QNO93KYQxawlcaOfWO6azzmh8fo4/view" target="_blank" class="project-link"><i class="fas fa-play-circle"></i></a>
             </div>
-
-
-            <!-- This is Second Project -->
-
-            <div class="box3">
-
-
-                <img class="projectImg" src="/Assets/Online Food delivery image.jpg" alt="">
-                <!-- this is seconnd image -->
-                <h1><b class="xyz">food delivery system </b></h1>
-                <h1 class=" pdesc">This REST API facilitates online food delivery through Foodland (Door2Door), connecting customers and restaurants seamlessly. </h1>
-
-                <br />
-                <h1 class="descheading">Tech Stacks : </h1>
-                <br />
-                <h1>Java</h1>
-                <br />
-
-                <h1>Spring Boot || Hibernate</h1>
-                <br />
-                <h1></h1>
-                <br />
-                <h1>Lombok || Swagger</h1>
-                <br />
-                <h1></h1>
-                <br />
-                <button class="decbuttonmain"> <a class="decbutton" target="_blank"
-                        href="https://github.com/mahipat303/absent-sky-3233"> GitHub link</a></button>
-                <span><button class="decbuttonmain"> <a class="decbutton" target="_blank"
-                            href="https://drive.google.com/file/d/1At30QNO93KYQxawlcaOfWO6azzmh8fo4/view"> Demo
-                            Video</a></button></span>
+          </div>
+          <div class="project-content">
+            <span class="project-type">Backend · REST API</span>
+            <h3>Food Delivery System</h3>
+            <p>A full-featured REST API powering an online food delivery platform (Door2Door), connecting customers and restaurants with order management, real-time tracking, and delivery assignment.</p>
+            <div class="project-tech">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>Hibernate</span>
+              <span>Lombok</span>
+              <span>Swagger</span>
+              <span>MySQL</span>
             </div>
-
-
-            <!-- This is Third Project -->
-
-            <div class="box3">
-
-
-                <img class="projectImg" src="/Assets/Online Cab Booking Application (2).png" alt="">
-                <!-- this is Third image -->
-                <h1><b class="xyz">Online Cab Booking </b></h1>
-                <h1 class=" pdesc">This REST API powers the online cab booking app, 'Calling Cab', crafted with Java, SpringBoot, Hibernate, Lombok, and Swagger-UI. With roles for admin and users, it ensures efficient cab booking</h1>
-
-                <br />
-                <h1 class="descheading">Tech Stacks : </h1>
-                <br />
-                <h1>Java</h1>
-                <br />
-
-                <h1>Spring Boot || Hibernate</h1>
-                <br />
-                <h1></h1>
-                <br />
-                <h1>Lombok || Swagger</h1>
-                <br />
-                <h1></h1>
-                <br />
-                <button class="decbuttonmain"> <a class="decbutton" target="_blank"
-                        href="https://github.com/Komalkopnar622/sable-club-7536"> GitHub link</a></button>
-                <!-- <span><button class="decbuttonmain"> <a class="decbutton" target="_blank"
-                            href="https://reliancedigitala.netlify.app"> Deploy link</a></button></span> -->
-            </div>
-
+          </div>
         </div>
 
-    </section>
-
-    <!-- Project section ends -->
-
-    <!-- ----------------------------------------------------------------- -->
-
-
-
-    <!-- github Section  starts =================================================================-->
-
-    <section class="calender" id="calender">
-        <div class="max-width">
-            <!-- <h2 class="title" >Github Stats </h2> -->
-            <h1 class="heading" id="githubdeading"> Github <span></span> </h1>
-
-            <!-- <h1 class="heading", id="git"> my GitHubCalendar </h1> -->
-            <!-- Include the library. -->
-            <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-
-            <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-            <link rel="stylesheet"
-                href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-
-            <!-- Prepare a container for your calendar. -->
-            <div class="calendar" style="color: white; background-color:  rgb(16, 90, 80);; margin: 1%; padding: 1px;">
-                <!-- Loading stuff -->
-                Loading the data just for you.
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Assets/Online Cab Booking Application (2).png" alt="Online Cab Booking Application">
+            <div class="project-overlay">
+              <a href="https://github.com/Komalkopnar622/sable-club-7536" target="_blank" class="project-link"><i class="fa-brands fa-github"></i></a>
             </div>
-
-            <script>
-                GitHubCalendar(".calendar", "arupx3492");
-                // or enable responsive functionality
-                GitHubCalendar(".calendar", "arupx3492", { responsive: true });
-            </script>
-
-            <picture style="justify-content: center;">
-                <source srcset="https://github-readme-stats.vercel.app/api?username=arupx3492&show_icons=true"
-                    media="(prefers-color-scheme: light)" />
-
-            </picture>
-
-            <div class="serve-content">
-                <div class="card1">
-                    <img class="gimg1"
-                        src="https://github-readme-streak-stats.herokuapp.com/?user=arupx3492&&theme=tokyonight"
-                        alt="gitstats">
-                    <img class="stats"
-                        src="https://github-readme-stats.vercel.app/api?username=arupx3492&&theme=dark&hide_border=false&include_all_commits=true&count_private=false"
-                        alt="">
-
-                </div>
-
+          </div>
+          <div class="project-content">
+            <span class="project-type">Backend · REST API</span>
+            <h3>Online Cab Booking</h3>
+            <p>A production-style REST API for 'Calling Cab' — an online cab booking platform with role-based access (Admin &amp; User), real-time cab allocation, and trip management with complete CRUD operations.</p>
+            <div class="project-tech">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>Hibernate</span>
+              <span>Lombok</span>
+              <span>Swagger</span>
             </div>
-        </div>
-    </section>
-
-    <!-- github Section ends ================================================================== -->
-
-    <!-- contact section starts -->
-
-    <section class="contact" id="contact">
-
-        <h1 class="heading"> <span>contact</span> me </h1>
-
-        <div class="row">
-
-            <div class="content">
-
-                <h3 class="title">contact info</h3>
-
-                <div class="info">
-                    <h3 class="mail"> <i class="fas fa-envelope"></i>
-                        arup71062@gmail.com </h3>
-                    <h3 class="info1"> <i class="fas fa-phone"> </i> 9883692791</h3>
-                    <h3 class="info1"> <i class="fas fa-phone"></i>6296982265</h3>
-                    <h3 class="info1"> <i class="fas fa-map-marker-alt "></i>Purulia , <span class="address">West Bengal
-                            , </span> <span class="address"> </span> 723131 </h3>
-
-                    <div class="gitlinked">
-                        <a href="https://github.com/arupx3492">
-                            <h3 class="info1"> <i class="fa-brands fa-github"> </i><span>GitHub</span></h3>
-                        </a>
-                        <a href="https://www.linkedin.com/in/arup-mahato-56969722b/">
-                            <h3 class="info1"> <i class="fa-brands fa-linkedin"> </i>linkedin</h3>
-                        </a>
-                    </div>
-
-
-                </div>
-            </div>
-
+          </div>
         </div>
 
-    </section>
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Assets/nykaa2.png" alt="Nykaa Clone">
+            <div class="project-overlay">
+              <a href="https://github.com/arupx3492/Nykaa-Clone" target="_blank" class="project-link"><i class="fa-brands fa-github"></i></a>
+              <a href="https://famous-conkies-aaaea0.netlify.app/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-type">Frontend · Web App</span>
+            <h3>Nykaa Clone</h3>
+            <p>A pixel-perfect frontend clone of Nykaa — India's leading beauty &amp; lifestyle e-commerce platform. Features product listings, filtering, cart functionality, and responsive design.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
 
-    <!-- contact section ends -->
+      </div>
+    </div>
+  </section>
 
-    <!-- icon kit link -->
-    <script src="https://kit.fontawesome.com/a3e658f8ef.js" crossorigin="anonymous"></script>
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="skills" id="skills">
+    <div class="section-container">
+      <h2 class="section-title">Technical Skills</h2>
+      <p class="section-subtitle">Technologies &amp; tools I work with</p>
 
-    <!-- jquery cdn link -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <div class="skill-tag">
+              <img src="Assets/java.png" alt="Java">
+              <span>Java</span>
+            </div>
+            <div class="skill-tag">
+              <img src="Assets/js.png" alt="JavaScript">
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-tag">
+              <img src="Assets/sql-server (1).png" alt="SQL">
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
 
-    <!-- custom js file link -->
-    <script src="/script.js"></script>
+        <div class="skill-category">
+          <h3><i class="fas fa-layer-group"></i> Backend &amp; Frameworks</h3>
+          <div class="skill-tags">
+            <div class="skill-tag">
+              <img src="Assets/Spring boot image.png" alt="Spring Boot">
+              <span>Spring Boot</span>
+            </div>
+            <div class="skill-tag">
+              <img src="Assets/spring.png" alt="Spring">
+              <span>Spring Framework</span>
+            </div>
+            <div class="skill-tag">
+              <img src="Assets/Hibernate.png" alt="Hibernate">
+              <span>Hibernate / JPA</span>
+            </div>
+            <div class="skill-tag no-img">
+              <i class="fas fa-network-wired"></i>
+              <span>REST API Design</span>
+            </div>
+          </div>
+        </div>
 
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="skill-tags">
+            <div class="skill-tag">
+              <img src="Assets/sql-server (1).png" alt="MySQL">
+              <span>MySQL</span>
+            </div>
+            <div class="skill-tag no-img">
+              <i class="fas fa-leaf"></i>
+              <span>MongoDB</span>
+            </div>
+            <div class="skill-tag no-img">
+              <i class="fas fa-bolt"></i>
+              <span>Redis</span>
+            </div>
+          </div>
+        </div>
 
+        <div class="skill-category">
+          <h3><i class="fas fa-sitemap"></i> Architecture &amp; Concepts</h3>
+          <div class="skill-tags">
+            <div class="skill-tag no-img">
+              <i class="fas fa-cubes"></i>
+              <span>Microservices Architecture</span>
+            </div>
+            <div class="skill-tag no-img">
+              <i class="fas fa-shield-alt"></i>
+              <span>JWT Authentication</span>
+            </div>
+            <div class="skill-tag no-img">
+              <i class="fas fa-lock"></i>
+              <span>Spring Security</span>
+            </div>
+          </div>
+        </div>
 
-</body>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools &amp; Platforms</h3>
+          <div class="skill-tags">
+            <div class="skill-tag no-img">
+              <i class="fa-brands fa-git-alt"></i>
+              <span>Git &amp; GitHub</span>
+            </div>
+            <div class="skill-tag no-img">
+              <i class="fas fa-paper-plane"></i>
+              <span>Postman</span>
+            </div>
+            <div class="skill-tag">
+              <img src="Assets/Swagger.png" alt="Swagger">
+              <span>Swagger / OpenAPI</span>
+            </div>
+            <div class="skill-tag">
+              <img src="Assets/aws image.jpg" alt="AWS">
+              <span>AWS</span>
+            </div>
+          </div>
+        </div>
 
-</html>
+        <div class="skill-category">
+          <h3><i class="fas fa-palette"></i> Frontend</h3>
+          <div class="skill-tags">
+            <div class="skill-tag">
+              <img src="Assets/html.png" alt="HTML">
+              <span>HTML5</span>
+            </div>
+            <div class="skill-tag">
+              <img src="Assets/css.png" alt="CSS">
+              <span>CSS3</span>
+            </div>
+            <div class="skill-tag">
+              <img src="Assets/js.png" alt="JavaScript">
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</div>
+      <!-- Soft Skills -->
+      <div class="soft-skills">
+        <h3 class="soft-skills-title">Soft Skills</h3>
+        <div class="soft-skills-tags">
+          <span><i class="fas fa-users"></i> Cross-Team Collaboration</span>
+          <span><i class="fas fa-clock"></i> Time Management</span>
+          <span><i class="fas fa-flag"></i> Technical Leadership</span>
+          <span><i class="fas fa-comments"></i> Clear Communication</span>
+          <span><i class="fas fa-puzzle-piece"></i> Problem Solving</span>
+          <span><i class="fas fa-book-open"></i> Continuous Learning</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ========== GITHUB SECTION ========== -->
+  <section class="github-section" id="github">
+    <div class="section-container">
+      <h2 class="section-title">GitHub Activity</h2>
+      <p class="section-subtitle">My open-source contributions &amp; coding consistency</p>
 
+      <!-- GitHub Calendar -->
+      <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+      <div class="calendar" id="github-calendar">Loading GitHub data...</div>
+      <script>
+        GitHubCalendar("#github-calendar", "arupx3492", { responsive: true });
+      </script>
 
-</div>
+      <div class="github-stats">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=arupx3492&theme=tokyonight&hide_border=true&border_radius=10"
+          alt="GitHub Streak Stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=arupx3492&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&border_radius=10"
+          alt="GitHub Stats">
+      </div>
+    </div>
+  </section>
 
-</section>
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-subtitle">I'm open to backend engineering roles, collaborations, and interesting projects</p>
 
-<!-- contact section ends -->
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <h3>Email</h3>
+          <a href="mailto:arup71062@gmail.com">arup71062@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-phone"></i></div>
+          <h3>Phone</h3>
+          <p>+91 9883692791</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Location</h3>
+          <p>Purulia, West Bengal, India — 723131</p>
+        </div>
+      </div>
 
+      <div class="contact-socials">
+        <a href="https://github.com/arupmahato03" target="_blank" class="social-link">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/arup-mahato-56969722b/" target="_blank" class="social-link">
+          <i class="fa-brands fa-linkedin-in"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://twitter.com/arup6649" target="_blank" class="social-link">
+          <i class="fa-brands fa-twitter"></i>
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.instagram.com/arupx3492/" target="_blank" class="social-link">
+          <i class="fa-brands fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2026 Arup Mahato. Built with purpose.</p>
+      <p class="footer-tagline">Designed to ship. Engineered to scale.</p>
+    </div>
+  </footer>
 
+  <!-- Custom JS -->
+  <script src="script.js"></script>
 
-
-<script src="js/jquery-2.1.3.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
 </body>
 
 </html>
