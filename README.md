@@ -1,6 +1,6 @@
 ## Hi, <br/> I am Arup Mahato , A passionate java backend Developer. <br/>
 
-With Strong Desire. Worked On 5+ Projects In Groups And Individuals. Always Interested In Learning New Things, And Working With New People. Also, Have A Good Interpersonal Skill.
+Backend Developer with 2.5+ years of experience in designing and developing scalable RESTful services using Java and Spring Boot. Experienced in building production-grade applications with efficient database design, transaction management, and performance optimization. Proven ability to write clean, maintainable code and contribute effectively in fast-paced development environments.
 
 ## Technical Skills <br/>
 HTML || CSS <br/>
