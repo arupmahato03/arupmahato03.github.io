@@ -224,9 +224,7 @@
         </h1>
 
         <p class="hero-sub" data-reveal>
-          I'm Arup Mahato, a Java backend developer in Pune. Three years of Spring Boot in production:
-          10+ microservices carved out of a monolith, 100+ endpoints locked down with Spring Security,
-          and payment flows that don't double-charge.
+          Java Backend Developer with 3+ years of experience designing, building, and deploying scalable REST APIs and microservices using Java, Spring Boot, and Hibernate/JPA. Hands-on with MySQL, MongoDB, and Redis, JWT and Spring Security based authentication, payment gateway integrations, and query and performance optimization. Experienced in owning backend features end to end from design through production deployment in Agile teams.
         </p>
 
         <div class="hero-actions" data-reveal>
@@ -336,7 +334,7 @@
               <p class="tag tag-live"><span class="dot" aria-hidden="true"></span>Current</p>
               <h3 class="case-org">Togethring Media&nbsp;Labs</h3>
               <p class="case-role">Backend Development Engineer</p>
-              <p class="case-when">Dec 2024 — Present</p>
+              <p class="case-when">Dec 2024 — Present · Pune, IN</p>
 
               <dl class="metrics">
                 <div><dt><span class="num" data-count="10">10</span>+</dt><dd>microservices</dd></div>
@@ -351,7 +349,9 @@
                 <li>Spring Data JPA</li>
                 <li>Hibernate</li>
                 <li>MySQL</li>
+                <li>MongoDB</li>
                 <li>Redis</li>
+                <li>Stripe</li>
                 <li>Docker</li>
                 <li>Maven</li>
               </ul>
@@ -359,20 +359,22 @@
           </div>
 
           <div class="case-main">
-            <div class="beat beat-key" data-reveal>
-              <h4>What I built</h4>
-              <p>I decomposed the codebase into 10+ Spring Boot microservices and built 100+ REST endpoints behind
-                JWT authentication and role-based authorization with Spring Security. On the payment path:
-                idempotency keys and webhook reconciliation. On the data path: profiled Hibernate/JPA queries,
-                resolved N+1s, added composite indexes to the MySQL schema, and put Redis in front of hot reads.
-                I also built the aggregation services and reporting APIs behind the internal analytics dashboards.</p>
-            </div>
-            <div class="beat" data-reveal>
-              <h4>Outcome</h4>
-              <p>Services deploy independently instead of as one unit. No unauthorized-access defects across the
-                services I secured, no duplicate charges or payment mismatches across 100+ monthly transactions,
-                and a measurable drop in average API response time after the query and caching work. The Wix plugin
-                and CRM integration layers standardized third-party sync and cut manual reconciliation.</p>
+            <div class="case-desc" data-reveal>
+              <p>I design and deliver Spring Boot microservices for high-traffic production applications — 10+ so
+                far, carved out of a monolithic codebase so services deploy independently instead of as one unit.
+                I've built and secured 100+ REST endpoints with JWT authentication and role-based authorization
+                using Spring Security, eliminating unauthorized-access defects across all services.</p>
+              <p>On the payment path I integrated gateway flows handling 100+ monthly transactions, using
+                idempotency keys and webhook reconciliation to prevent duplicate charges and payment mismatches.
+                On the data path I optimize Hibernate/JPA queries and MySQL schemas — resolving N+1 issues, adding
+                composite indexes, and introducing Redis caching for frequently accessed data, measurably reducing
+                average API response time.</p>
+              <p>I own backend features on two products. For <strong>Ekatra</strong>, a co-shopping platform, I
+                built the Wix plugin that powers real-time shared shopping sessions, plus session-based event
+                tracking with data processed in MongoDB to drive merchant-facing behavioral analytics. For
+                <strong>Annotico</strong>, a property investment platform, I developed broker analytics dashboards,
+                dual payment gateway integration (Stripe and Dodo Payments) for subscription billing, and a
+                WhatsApp-based investor notification system.</p>
             </div>
 
             <div class="notes" data-reveal>
@@ -391,10 +393,12 @@
                     <li>Optimized Hibernate/JPA queries and MySQL schemas by resolving N+1 query issues, adding
                       composite indexes, and introducing Redis caching for frequently accessed data, measurably
                       reducing average API response time.</li>
-                    <li>Developed backend services for an analytics platform, aggregating event data and exposing
-                      reporting APIs consumed by internal dashboards for business decision-making.</li>
-                    <li>Delivered Wix plugin services and CRM integration layers, standardizing third-party data sync
-                      and reducing manual reconciliation effort.</li>
+                    <li>Built the Wix plugin powering Ekatra, a co-shopping platform enabling real-time shared
+                      shopping sessions, and implemented session-based event tracking with data processed in MongoDB
+                      to power merchant-facing behavioral analytics.</li>
+                    <li>Developed core features for Annotico, a property investment platform, including broker
+                      analytics dashboards, dual payment gateway integration (Stripe, Dodo Payments) for subscription
+                      billing, and a WhatsApp-based investor notification system.</li>
                   </ul>
                 </div>
               </div>
@@ -406,10 +410,10 @@
         <article class="case">
           <div class="case-aside">
             <div class="case-sticky" data-spotlight data-reveal>
-              <p class="tag">Intern → Full-time</p>
+              <p class="tag">Previous</p>
               <h3 class="case-org">Heliverse Technologies</h3>
               <p class="case-role">Java Backend Developer</p>
-              <p class="case-when">Jun 2023 — Sep 2024</p>
+              <p class="case-when">Jun 2023 — Sep 2024 · Gurugram, IN</p>
 
               <dl class="metrics">
                 <div><dt><span class="num" data-count="500">500</span>+</dt><dd>active users</dd></div>
@@ -430,18 +434,15 @@
           </div>
 
           <div class="case-main">
-            <div class="beat beat-key" data-reveal>
-              <h4>What I built</h4>
-              <p>Spring Boot REST APIs on a clean layered architecture following SOLID principles, and a bidding
-                system built on database transactions and explicit locking strategies so concurrent bids resolve
-                deterministically. I also implemented payment gateway integration and role-based access control
-                across the core modules.</p>
-            </div>
-            <div class="beat" data-reveal>
-              <h4>Outcome</h4>
-              <p>Bids stay consistent under simultaneous access, and sensitive customer and transaction data sits
-                behind RBAC. The APIs shipped sprint by sprint alongside frontend, QA and product — and I converted
-                from intern to full-time on the strength of the work.</p>
+            <div class="case-desc" data-reveal>
+              <p>I developed and maintained Spring Boot REST APIs for a Customer Management System serving 500+
+                active users, on a clean layered architecture following SOLID principles.</p>
+              <p>The hardest piece was a real-time property bidding system handling concurrent bids — built on
+                database transactions and explicit locking strategies to guarantee data consistency under
+                simultaneous access. I also implemented payment gateway integration and role-based access control
+                across the core modules, securing sensitive customer and transaction data.</p>
+              <p>Throughout, I partnered with frontend, QA and product teams in Agile sprints, translating business
+                requirements into scalable, maintainable backend designs.</p>
             </div>
 
             <div class="notes" data-reveal>
@@ -459,7 +460,6 @@
                       modules, securing sensitive customer and transaction data.</li>
                     <li>Partnered with frontend, QA, and product teams in Agile sprints to translate business
                       requirements into scalable, maintainable backend designs.</li>
-                    <li>Converted from internship (Jun–Aug 2023) to full-time based on performance.</li>
                   </ul>
                 </div>
               </div>

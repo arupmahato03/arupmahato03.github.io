@@ -317,7 +317,7 @@ strong { font-weight: 600; }
 .build-kind, .build-idx, .attr-main, .attr-sub, .layer-n, .tags li,
 .metrics dd, .facts dt, .notes-btn, .spec-id, .spec-live, .spec-cap,
 .spec-rows dt, .footer-inner, .rail, .menu-link, .chip-link, .btn,
-.contact-note, .beat h4, .cue-l, kbd {
+.contact-note, .cue-l, kbd {
   font-family: var(--f-mono);
 }
 
@@ -902,20 +902,12 @@ strong { font-weight: 600; }
 }
 .metrics dd { font-size: var(--t--2); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); margin-top: 2px; }
 
-/* What I built / Outcome */
-.beat + .beat { margin-top: var(--s-6); }
-.beat h4 {
-  font-size: var(--t--2);
-  font-weight: 400;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--accent);
-  padding-bottom: var(--s-2);
-  margin-bottom: var(--s-4);
-  border-bottom: 1px solid var(--line);
-}
-.beat p { color: var(--ink-2); max-width: 68ch; }
-.beat-key p { font-size: var(--t-1); line-height: 1.55; color: var(--ink); }
+/* Role description — plain prose, no sub-headings */
+.case-desc { display: grid; gap: var(--s-5); max-width: 68ch; }
+.case-desc p { color: var(--ink-2); }
+/* The opening paragraph carries the weight */
+.case-desc p:first-child { font-size: var(--t-1); line-height: 1.55; color: var(--ink); }
+.case-desc strong { font-weight: 500; color: var(--ink); }
 
 /* Engineering notes */
 .notes { margin-top: var(--s-7); border-top: 1px solid var(--line); padding-top: var(--s-4); }

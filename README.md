@@ -16,8 +16,10 @@ Currently deepening my skills in distributed systems and cloud infrastructure.
 - Built and secured 100+ REST endpoints with JWT authentication and role-based authorization via Spring Security
 - Integrated payment gateway flows with idempotency keys and webhook reconciliation to prevent duplicate charges
 - Optimized Hibernate/JPA queries and MySQL schemas — resolved N+1 issues, added composite indexes, introduced Redis caching
+- Built the Wix plugin powering **Ekatra**, a co-shopping platform with real-time shared shopping sessions and session-based event tracking processed in MongoDB
+- Developed core features for **Annotico**, a property investment platform — broker analytics dashboards, dual payment gateway integration (Stripe, Dodo Payments), and a WhatsApp-based investor notification system
 
-**Java Backend Developer** — Heliverse Technologies · *Jun 2023 – Sep 2024* · `Intern → Full-Time`
+**Java Backend Developer** — Heliverse Technologies · *Jun 2023 – Sep 2024*
 - Developed Spring Boot REST APIs for a Customer Management System serving 500+ active users
 - Built a real-time property bidding system handling concurrent bids with database transactions and locking strategies
 - Implemented payment gateway integration and role-based access control (RBAC) across core modules
