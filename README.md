@@ -3,7 +3,7 @@
 
 I build scalable REST APIs and microservices with Java and Spring Boot — from payment integrations handling real transaction volume to high-traffic production systems serving hundreds of users.
 
-Backend Developer with 3 years of experience designing and developing production-grade backend systems. At **Togethring Media Labs** I designed and delivered **10+ Spring Boot microservices**, built and secured **100+ REST endpoints** with JWT authentication and Spring Security, and integrated payment gateway flows with idempotency keys and webhook reconciliation. Previously at **Heliverse Technologies**, I built Spring Boot REST APIs for a Customer Management System serving **500+ active users** and developed a real-time property bidding system using database transactions and locking strategies to guarantee consistency under concurrent access.
+Backend Developer with 3+ years of experience designing and developing production-grade backend systems. At **Togethring Media Labs** I designed and delivered **10+ Spring Boot microservices**, built and secured **100+ REST endpoints** with JWT authentication and Spring Security, and integrated payment gateway flows with idempotency keys and webhook reconciliation. Previously at **Heliverse Technologies**, I built Spring Boot REST APIs for a Customer Management System serving **500+ active users** and developed a real-time property bidding system using database transactions and locking strategies to guarantee consistency under concurrent access.
 
 Currently deepening my skills in distributed systems and cloud infrastructure.
 
@@ -17,7 +17,7 @@ Currently deepening my skills in distributed systems and cloud infrastructure.
 - Integrated payment gateway flows with idempotency keys and webhook reconciliation to prevent duplicate charges
 - Optimized Hibernate/JPA queries and MySQL schemas — resolved N+1 issues, added composite indexes, introduced Redis caching
 
-**Java Backend Developer** — Heliverse Technologies · *Sep 2023 – Sep 2024* · `Intern → Full-Time`
+**Java Backend Developer** — Heliverse Technologies · *Jun 2023 – Sep 2024* · `Intern → Full-Time`
 - Developed Spring Boot REST APIs for a Customer Management System serving 500+ active users
 - Built a real-time property bidding system handling concurrent bids with database transactions and locking strategies
 - Implemented payment gateway integration and role-based access control (RBAC) across core modules
