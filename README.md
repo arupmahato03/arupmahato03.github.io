@@ -76,12 +76,12 @@ numbers every time it is asked.
 
 ```mermaid
 flowchart TD
-    A[Trade Sources<br/>broker sync · CSV import] --> B[Ingestion<br/>parse · validate · de-duplicate]
-    B --> C[Reconciliation<br/>fills matched into trades]
-    C --> D[Normalized Trade Data<br/>fees and funding costs applied]
-    D --> E[Analytics Engine<br/>deterministic metrics]
-    E --> F[REST APIs<br/>tenant-scoped · JWT secured]
-    F --> G[Dashboard<br/>journal and reporting views]
+    A["Trade Sources<br/>Broker sync / CSV import"] --> B["Ingestion<br/>Parse / validate / de-duplicate"]
+    B --> C["Reconciliation<br/>Fills matched into trades"]
+    C --> D["Normalized Trade Data<br/>Fees and funding costs applied"]
+    D --> E["Analytics Engine<br/>Deterministic metrics"]
+    E --> F["REST APIs<br/>Tenant-scoped / JWT secured"]
+    F --> G["Dashboard<br/>Journal and reporting views"]
 ```
 
 | | |
