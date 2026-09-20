@@ -124,5 +124,5 @@ I'm open to conversations around Java backend engineering, backend architecture 
 - **Portfolio** — [arupmahato03.github.io](https://arupmahato03.github.io/)
 - **Résumé** — [PDF](Assets/Arup_Mahato_Java_Backend_Engineer_Resume.pdf)
 
----
+
 
